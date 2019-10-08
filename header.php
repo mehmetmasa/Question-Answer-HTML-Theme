@@ -51,7 +51,7 @@
 </div>
 
 <!-- end col -->
-<nav class="top-bar">
+<div class="top-bar">
     <div class="container">
         <nav class="navbar navbar-expand-lg" >
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,12 +83,9 @@
                     <div >
                         <a href="blog.php"><button class="dropbtn"><i class="fas fa-book"></i> Blog</button></a>
                     </div>
-                    <div >
-                        <a href="contact.php"><button class="dropbtn"><i class="fas fa-envelope"></i></i> İletişim</button></a>
-                    </div>
                 </ul>
             </div>
         </nav>
     </div>
-</nav>
+</div>
 

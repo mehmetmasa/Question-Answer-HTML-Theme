@@ -215,11 +215,11 @@
             </div>
         </div>
         <div class="col-md-4 mt-2 mb-2 ">
-            <div class="  mb-4 ">
+            <div class="mb-4">
                 <h5 class="text-center question-analysis-icons-color"> Reklam</h5>
                 <img src="https://h.eksiup.com/4MZZYp.jpg" alt="reklam" class="img-thumbnail" width="100%">
             </div>
-            <div class="  mt-4 ">
+            <div class="mt-4">
                 <h5 class="text-center question-analysis-icons-color"> Site Analizleri</h5>
                 <ul class="row mx-0 list-unstyled social-three text-center mb-5 bg-white">
                     <!--twitter-->
