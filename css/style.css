@@ -1,0 +1,395 @@
+@font-face {
+    font-family: Gotham;
+    src: url('../fonts/GothamNarrow-Bold.otf');
+}
+
+.bg{
+    background-color: #f5f5f5;
+}
+
+.user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.widget-user-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.question-analysis-icons {
+    margin-right: 5px;
+}
+
+.question-analysis-icons-color {
+    color: #7d7b7b;
+    font-size: 17px;
+}
+
+
+.question-title {
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-family: "Gotham", Serif;
+}
+
+.populer-question {
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.question-text {
+    margin-left: 9.5%;
+}
+
+.answer-questions {
+    background-color: #e6ffed;
+}
+
+.message-time {
+    color: #7d7b7b;
+    font-size: 13px;
+}
+
+.asking-the-question {
+    font-size: 15px;
+    color: #3262aa;
+}
+
+.question-category {
+    font-size: 13px;
+    color: #7d7b7b;
+}
+
+
+.widget-analytics {
+    font-size: 19px;
+    color: #fff;
+}
+
+.widget-analytics-text {
+    font-size: 20px;
+    color: #7d7b7b;
+}
+
+/* İCON COLOR */
+.blue-icon {
+    color:#3262aa; ;
+}
+
+.green-icon{
+    color: #28a745;
+}
+
+.yellow-icon {
+    color: #bdc25d;
+}
+
+.red-icon {
+    color: #b34139;
+}
+
+.question-icon {
+    color: #3262aa;
+}
+
+/* SOCİAL MEDİA İCON */
+.bg-facebook {
+    background-color: #3b5998 !important;
+    color: #fff;
+}
+.bg-twitter {
+    background-color: #00aced !important;
+    color: #fff;
+}
+.bg-instagram {
+    background-color: #b300ad !important;
+    color: #fff;
+}
+.bg-youtube {
+    background-color: #bd0000 !important;
+    color: #fff;
+}
+
+
+/* BUTTON */
+.btn-private {
+    color: #fff;
+    background-color: #3262aa;
+    border-color: #3262aa;
+    border-radius: 0px;
+}
+
+.btn-private:hover {
+    color: #fff;
+    background-color:#3262aa;
+    border-color: #3262aa;
+}
+
+.btn-sc {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 0px;
+}
+
+.btn-sc:hover {
+    color: #fff;
+    background-color:#28a745;
+    border-color: #28a745;
+}
+
+.btn-red {
+    color: #fff;
+    background-color: #b34139;
+    border-color: #b34139;
+    border-radius: 0px;
+}
+
+.btn-red:hover {
+    color: #fff;
+    background-color:#b34139;
+    border-color: #b34139;
+}
+
+.question-page-text {
+    font-size: 13px;
+}
+
+.btn-question {
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0cd4d2;
+}
+/* END BUTTON */
+
+@media (max-width: 780px ){
+    .carousel-inner {
+        height: auto;
+    }
+
+    .question-text {
+        margin-left: 12%;
+    }
+
+}
+
+@media (max-width: 480px ){
+
+    .question-text {
+        margin-left: 20%;
+    }
+
+    .dropbtn {
+        border-right: none;
+    }
+
+    .question-category {
+        text-align: center;
+    }
+    .ask-question-button {
+        margin-top: 10px;
+    }
+
+    .question-status {
+        margin-top: 35px;
+    }
+
+}
+
+@media (max-width: 400px ){
+
+    .question-text {
+        margin-left: 25%;
+    }
+
+    .question-status {
+        margin-top: 60px;
+    }
+
+    .question-category {
+        text-align: center;
+    }
+}
+
+
+/* TAB PANEL */
+
+.faq-nav {
+    flex-direction: column;
+    margin: 0 0 16px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+}
+.faq-nav .nav-link {
+    position: relative;
+    display: block;
+    margin: 0;
+    border-radius: 0;
+    padding: 13px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #7d7b7b;
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+}
+
+.faq-nav .nav-link:hover {
+    color: #000;
+}
+
+.question-menu-icon {
+    padding-right: 8px;
+}
+
+.faq-nav .nav-link.active {
+    background-color: #f6f6f6;
+    font-size: 15px;
+    color: #000;
+}
+
+.faq-nav .nav-link:last-of-type {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom: 0;
+}
+.faq-nav .nav-link i.mdi {
+    margin-right: 5px;
+    font-size: 18px;
+    position: relative;
+}
+.tab-content .card {
+    border-radius: 0;
+}
+
+.tab-content .card-header h5 button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .87);
+    text-align: left;
+    white-space: normal;
+}
+.tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
+    text-decoration: none;
+}
+.accordion > .card:not(:first-child) {
+    border-top: 0;
+}
+.collapse.show .card-body {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+
+/* USER */
+
+.user-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Gotham Serif;
+    margin-bottom: 0px;
+}
+
+.user-main .user-block{
+    float: left;
+    width: 100%;
+    box-shadow: 0px 0px 23px -3px #ccc;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background:#fff;
+
+
+}
+.user-main .user-block .background-img{
+    float: left;
+    overflow: hidden;
+    height: 77px;
+}
+.user-main .user-block .background-img img{
+    width: auto;
+}
+.user-main .user-block .user-img{
+    text-align: center;
+}
+.user-main .user-block .user-img img{
+    width: 80px;
+    height: 80px;
+    margin-top: -39px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+
+}
+.user-main .user-block .user-description{
+    text-align: center;
+}
+.user-main .user-block .user-description h5{
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.user-main .user-block .user-description p{
+    margin-bottom: 5px;
+}
+.user-main .user-block .user-description .btn{
+    padding: 0px 23px 0px 23px;
+    height: 22px;
+    border-radius: 0;
+    font-size: 12px;
+    color: #fff;
+}
+/* Rütbe Düzenlenecek é */
+.rutbe1 {
+    background: #05a874;
+}
+.rutbe2 {
+    background: #b09b13;
+}
+.rutbe3 {
+    background: #9e5a06;
+}
+.rutbe4 {
+    background: #9c2302;
+}
+.rutbe5 {
+    background: #80126f;
+}
+/* Rütbe Bitiş! */
+
+
+.user-main .user-block .user-description .btn:hover{
+    opacity:0.7;
+}
+
+.user-main .user-block .followrs{
+    display: inline-flex;
+    margin-right: 10px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+.user-main .user-block .followrs .number{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: -1px;
+}
+
+.verified {
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+
