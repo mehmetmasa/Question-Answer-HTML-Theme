@@ -64,7 +64,7 @@
                         <a href="index.php"><button class="dropbtn"><i class="fas fa-home gri-icon"></i> Anasayfa</button></a>
                     </div>
                     <div >
-                        <a href="sorular.php"><button class="dropbtn"><i class="fas fa-question-circle"></i> Sorular</button></a>
+                        <a href="questions.php"><button class="dropbtn"><i class="fas fa-question-circle"></i> Sorular</button></a>
                     </div>
                     <div class="dropdown">
                         <button class="dropbtn dropdown-toggle"><i class="fas fa-bars"></i> Kategoriler</button>
@@ -75,16 +75,16 @@
                         </div>
                     </div>
                     <div >
-                        <a href="kullanicilar.php"><button class="dropbtn"><i class="fas fa-users"></i> Kullanıcılar</button></a>
+                        <a href="users.php"><button class="dropbtn"><i class="fas fa-users"></i> Kullanıcılar</button></a>
                     </div>
                     <div >
-                        <a href="rozetler.php"><button class="dropbtn"><i class="fas fa-trophy"></i> Rozetler</button></a>
+                        <a href="badges.php"><button class="dropbtn"><i class="fas fa-trophy"></i> Rozetler</button></a>
                     </div>
                     <div >
                         <a href="blog.php"><button class="dropbtn"><i class="fas fa-book"></i> Blog</button></a>
                     </div>
                     <div >
-                        <a href="iletisim.php"><button class="dropbtn"><i class="fas fa-envelope"></i></i> İletişim</button></a>
+                        <a href="contact.php"><button class="dropbtn"><i class="fas fa-envelope"></i></i> İletişim</button></a>
                     </div>
                 </ul>
             </div>
