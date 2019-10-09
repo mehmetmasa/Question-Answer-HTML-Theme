@@ -486,6 +486,12 @@ h1 {
 
 /* POPULER POST WİDGET END */
 
+.category-title-widgets {
+    margin-bottom: 0px;
+    font-size: 17px;
+}
 
-
-
+.category-title {
+    font-size: 35px;
+    font-family: "Gotham", Serif;
+}

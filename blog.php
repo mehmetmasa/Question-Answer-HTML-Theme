@@ -169,6 +169,7 @@
                 <img src="https://h.eksiup.com/LDMB3a.png" alt="reklam" class="img-thumbnail" width="100%">
             </div>
         </div>
+
         <div class="col-md-4 mt-3">
             <div class="widget-content popular-posts">
                 <h5 class="text-center question-analysis-icons-color"> Popüler Blog Yazıları</h5>
@@ -213,10 +214,34 @@
                 </ul>
             </div>
             <div class="mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="text-center question-analysis-icons-color">Kategoriler</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-code mr-3"></i> <p class="category-title-widgets">Yazılım</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-tools mr-3"></i> <p class="category-title-widgets">Donanım</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex align-items-center">
+                                <i class="fab fa-linux mr-3"></i> <p class="category-title-widgets">Linux</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mb-4">
                 <h5 class="text-center question-analysis-icons-color"> Reklam</h5>
                 <img src="https://h.eksiup.com/4MZZYp.jpg" alt="reklam" class="img-thumbnail" width="100%">
             </div>
-
         </div>
     </div>
 </div>
